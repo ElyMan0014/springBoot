@@ -1,6 +1,6 @@
 # springBoot
 
-Simple project using springBoot and gitlab
+Simple project using springBoot and github
 use cases :
 create, read, update, delete students 
 
