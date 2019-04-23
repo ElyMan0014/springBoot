@@ -18,5 +18,8 @@ public class StudentService {
 		return studentDao.getAllStudents();
 	}
 	
+	public Student getStudentById(int id) {
+		return studentDao.getStudentById(id);
+	}
 
 }

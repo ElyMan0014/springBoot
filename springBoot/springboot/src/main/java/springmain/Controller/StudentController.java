@@ -23,5 +23,8 @@ public class StudentController {
 		return studentService.getAllStudents();
 	}
 
-
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+	public Student getStudentById(int id) {
+		return studentService.getStudentById(id);
+	}
 }

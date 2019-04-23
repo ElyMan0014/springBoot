@@ -27,5 +27,10 @@ public class StudentDao {
 	public Collection <Student>getAllStudents(){
 		return this.students.values();
 	}
+	
+	//return the student who have the id entered.
+	public Student getStudentById(int id) {
+		return this.students.get(id);
+	}
 
 }
