@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import springmain.Entity.Student;
 import springmain.Serivce.StudentService;
 
-
+// rest configuration of our project.
 @RestController
 @RequestMapping("/students")
 public class StudentController {
