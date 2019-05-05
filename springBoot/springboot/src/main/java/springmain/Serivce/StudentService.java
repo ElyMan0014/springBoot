@@ -15,11 +15,24 @@ public class StudentService {
 	StudentDao studentDao;
 	
 	public Collection <Student>getAllStudents(){
-		return studentDao.getAllStudents();
+		return this.studentDao.getAllStudents();
 	}
 	
 	public Student getStudentById(int id) {
-		return studentDao.getStudentById(id);
+		return this.studentDao.getStudentById(id);
+	}
+
+	public void removeStudentById(int id) {
+		this.studentDao.removeStudentById(id);
+	}
+	
+	public void updateStudent(Student student) {
+		this.studentDao.updateStudentById(student);
+	}
+
+	public void insertStudent(Student student) {
+		this.studentDao.insertStudent(student);
+		
 	}
 
 }
